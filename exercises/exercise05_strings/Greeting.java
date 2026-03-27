@@ -2,10 +2,10 @@ package exercises.exercise05_strings;
 
 public class Greeting {
     public static void main(String[] args) {
-        String firstName = "Jan";
-        String lastName = "Angulo";
+        String firstName = "Nelson";
+        String lastName = "Baldado";
 
         // Task: Fix the error by adding the missing '+' sign for concatenation.
-        System.out.println("Hello, " firstName + " " + lastName);
+        System.out.println("Hello, " + firstName + " " + lastName);
     }
 }
