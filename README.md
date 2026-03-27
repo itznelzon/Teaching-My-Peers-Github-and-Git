@@ -6,44 +6,14 @@
   <img src="https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/actions/workflows/java-compile-check.yml/badge.svg?branch=nelson-learning" alt="Build Status"/>
 </p>
 
-<p align="center">`███░░░░░░░` **3/12** exercises passing</p>
+<p align="center">`█████░░░░░` **6/12** exercises passing</p>
 
 ---
 
-## ❌ Compilation Errors — 9/12 File(s) Failed
+## ❌ Compilation Errors — 6/12 File(s) Failed
 
 Don't worry — **errors are how we learn!** Here's what went wrong:
 
-
-### `BasicMath.java`
-```
-exercises/exercise04_math/BasicMath.java:7: error: incompatible types: possible lossy conversion from double to int
-        int score = 5.5;
-                    ^
-1 error
-```
-
-### `Greeting.java`
-```
-exercises/exercise05_strings/Greeting.java:9: error: ')' expected
-        System.out.println("Hello, " firstName + " " + lastName);
-                                    ^
-exercises/exercise05_strings/Greeting.java:9: error: not a statement
-        System.out.println("Hello, " firstName + " " + lastName);
-                                                     ^
-exercises/exercise05_strings/Greeting.java:9: error: ';' expected
-        System.out.println("Hello, " firstName + " " + lastName);
-                                                               ^
-3 errors
-```
-
-### `AgeCheck.java`
-```
-exercises/exercise06_logic/AgeCheck.java:8: error: incompatible types: int cannot be converted to boolean
-        if (age = 18) {
-                ^
-1 error
-```
 
 ### `NumberCheck.java`
 ```
@@ -135,7 +105,7 @@ exercises/exercise11_even_odd/EvenOrOdd.java:10: error: 'else' without 'if'
 1 error
 ```
 
-> 🔗 **[Open the failing file in github.dev](https://github.dev/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise04_math/BasicMath.java)** — fix it right in your browser!
+> 🔗 **[Open the failing file in github.dev](https://github.dev/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise07_if_else_basics/NumberCheck.java)** — fix it right in your browser!
 
 > 💪 **You got this!** Fix the errors above, commit, and push again.
 > The badge will turn green when your code compiles.
@@ -201,16 +171,16 @@ git push origin nelson-learning
 
 ## 📋 Your Exercises
 
-**3/12 exercises compiling**
+**6/12 exercises compiling**
 
 | # | Folder | File | Status |
 |:--|:-------|:-----|:------:|
 | 1 | `exercises/exercise01_hello_world` | [HelloWorld.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise01_hello_world/HelloWorld.java) | ✅ |
 | 2 | `exercises/exercise01_naming` | [FavoriteMovie.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise01_naming/FavoriteMovie.java) | ✅ |
 | 3 | `exercises/exercise03_variables` | [Variables.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise03_variables/Variables.java) | ✅ |
-| 4 | `exercises/exercise04_math` | [BasicMath.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise04_math/BasicMath.java) | ❌ |
-| 5 | `exercises/exercise05_strings` | [Greeting.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise05_strings/Greeting.java) | ❌ |
-| 6 | `exercises/exercise06_logic` | [AgeCheck.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise06_logic/AgeCheck.java) | ❌ |
+| 4 | `exercises/exercise04_math` | [BasicMath.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise04_math/BasicMath.java) | ✅ |
+| 5 | `exercises/exercise05_strings` | [Greeting.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise05_strings/Greeting.java) | ✅ |
+| 6 | `exercises/exercise06_logic` | [AgeCheck.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise06_logic/AgeCheck.java) | ✅ |
 | 7 | `exercises/exercise07_if_else_basics` | [NumberCheck.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise07_if_else_basics/NumberCheck.java) | ❌ |
 | 8 | `exercises/exercise07_loops` | [Counter.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise07_loops/Counter.java) | ❌ |
 | 9 | `exercises/exercise08_number_comparison` | [CompareNumbers.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise08_number_comparison/CompareNumbers.java) | ❌ |
