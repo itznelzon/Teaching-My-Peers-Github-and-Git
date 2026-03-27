@@ -6,22 +6,14 @@
   <img src="https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/actions/workflows/java-compile-check.yml/badge.svg?branch=nelson-learning" alt="Build Status"/>
 </p>
 
-<p align="center">`██░░░░░░░░` **2/12** exercises passing</p>
+<p align="center">`███░░░░░░░` **3/12** exercises passing</p>
 
 ---
 
-## ❌ Compilation Errors — 10/12 File(s) Failed
+## ❌ Compilation Errors — 9/12 File(s) Failed
 
 Don't worry — **errors are how we learn!** Here's what went wrong:
 
-
-### `Variables.java`
-```
-exercises/exercise03_variables/Variables.java:7: error: incompatible types: String cannot be converted to int
-        int message = "Hello, Learning!";
-                      ^
-1 error
-```
 
 ### `BasicMath.java`
 ```
@@ -143,7 +135,7 @@ exercises/exercise11_even_odd/EvenOrOdd.java:10: error: 'else' without 'if'
 1 error
 ```
 
-> 🔗 **[Open the failing file in github.dev](https://github.dev/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise03_variables/Variables.java)** — fix it right in your browser!
+> 🔗 **[Open the failing file in github.dev](https://github.dev/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise04_math/BasicMath.java)** — fix it right in your browser!
 
 > 💪 **You got this!** Fix the errors above, commit, and push again.
 > The badge will turn green when your code compiles.
@@ -209,13 +201,13 @@ git push origin nelson-learning
 
 ## 📋 Your Exercises
 
-**2/12 exercises compiling**
+**3/12 exercises compiling**
 
 | # | Folder | File | Status |
 |:--|:-------|:-----|:------:|
 | 1 | `exercises/exercise01_hello_world` | [HelloWorld.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise01_hello_world/HelloWorld.java) | ✅ |
 | 2 | `exercises/exercise01_naming` | [FavoriteMovie.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise01_naming/FavoriteMovie.java) | ✅ |
-| 3 | `exercises/exercise03_variables` | [Variables.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise03_variables/Variables.java) | ❌ |
+| 3 | `exercises/exercise03_variables` | [Variables.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise03_variables/Variables.java) | ✅ |
 | 4 | `exercises/exercise04_math` | [BasicMath.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise04_math/BasicMath.java) | ❌ |
 | 5 | `exercises/exercise05_strings` | [Greeting.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise05_strings/Greeting.java) | ❌ |
 | 6 | `exercises/exercise06_logic` | [AgeCheck.java](https://github.com/Rust-Frog/Teaching-My-Peers-Github-and-Git/blob/nelson-learning/exercises/exercise06_logic/AgeCheck.java) | ❌ |
